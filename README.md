@@ -19,6 +19,10 @@ The current version of the Odyssey project has come a long way and we will conti
 - `discord-rich-presence`, lets all your friends know that you're protected on Odyssey VPN.
 - Amazing looking design using `bootstrap 4`, `animate.css`, and `font-awesome`.
 
+## Issues and Suggestions
+
+If you run into issues with our application or have suggestions towards features you think should be added, please feel free to either contact us or open an issue within this repository.
+
 ## Contact Us
 
 If you need to get in contact with our development team or customer support, please either [join our discord server](https://discord.odyssey-vpn.com) or visit [our contact page on our website](https://odyssey-vpn.com/contact).
