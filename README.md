@@ -9,14 +9,14 @@ We are currently in the 0.4.* development versions of the Exordium application.
 
 ![](screenshots/screenshot-0.4.0.png)
 
-The current version of the Odyssey project has come a long way and we will continue to build on and improve its features and design. Thanks to all those who have helped us build on the foundation.
+The current version of the Exordium project has come a long way and we will continue to build on and improve its features and design. Thanks to all those who have helped us build on the foundation.
 
 ### Features
 
 - `electron-auto-updater`, automatically detects updates from this GitHub repository and downloads and installs them.
 - `online/offline`, informs the user on whether their connected to the internet or not (kind of important being that the application is used to create that connection).
 - `electron-theme-aware`, detect the system theme settings (works on Mac, and Windows (1903 or higher))
-- `discord-rich-presence`, lets all your friends know that you're protected on Odyssey VPN.
+- `discord-rich-presence`, lets all your friends know that you're protected on Exordium.
 - Amazing looking design using `bootstrap 4`, `animate.css`, and `font-awesome`.
 
 ## Issues and Suggestions
