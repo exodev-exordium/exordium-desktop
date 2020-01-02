@@ -1,9 +1,9 @@
-# Odyssey
+# Exordium
 *A project by the Exordium Development Team.*
 
-This repository allows us to share our Odyssey builds with our customers in a friendly environment designed for development, issue reporting, and proper distribution of our downloads and other related files.
+This repository allows us to share our Exordium builds with our customers in a friendly environment designed for development, issue reporting, and proper distribution of our downloads and other related files.
 
-We are currently in the 0.4.* development versions of the Odyssey application.
+We are currently in the 0.4.* development versions of the Exordium application.
 
 ## 0.4.6
 
@@ -25,10 +25,10 @@ If you run into issues with our application or have suggestions towards features
 
 ## Contact Us
 
-If you need to get in contact with our development team or customer support, please either [join our discord server](https://discord.odyssey-vpn.com) or visit [our contact page on our website](https://odyssey-vpn.com/contact).
+If you need to get in contact with our development team or customer support, please either [join our discord server](https://discord.exordium.dev) or visit [our contact page on our website](https://exordium.dev/contact).
 
 If you want to send us an email, regarding any issue, you can send an email to:
-- :envelope: [contact@odyssey-vpn.com](mailto:contact@odyssey-vpn.com)
+- :envelope: [contact@exordium.dev](mailto:contact@exordium.dev)
 
 ## Contributors
 
