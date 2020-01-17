@@ -1,11 +1,13 @@
 # Exordium
 *A project by the Exordium Development Team.*
 
-This repository allows us to share our Exordium builds with our customers in a friendly environment designed for development, issue reporting, and proper distribution of our downloads and other related files.
+Exordium is a virtual private networking software in the works. **Our goal is to donate all profits made from the VPN towards environmental protection, and to fight against the climate crisis.** 
 
-We are currently in the 0.4.* development versions of the Exordium application.
+We hope to share as much of our programming as open source code to help others create their own projects and further the development of software built with `electronjs` and` nodejs`, which are the fundamental pieces to us. 
 
 ## 0.4.6
+
+We are currently in the 0.4.* development versions of the Exordium application.
 
 ![](screenshots/screenshot-0.4.0.png)
 
