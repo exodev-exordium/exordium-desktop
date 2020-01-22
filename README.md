@@ -21,9 +21,9 @@ The current version of the Exordium project has come a long way and we will cont
 - `discord-rich-presence`, lets all your friends know that you're protected on Exordium.
 - Amazing looking design using `bootstrap 4`, `animate.css`, and `font-awesome`.
 
-## Issues and Suggestions
+## Issues & Suggestions
 
-If you run into issues with our application or have suggestions towards features you think should be added, please feel free to either contact us or open an issue within this repository.
+If you run into an issues regarding the application, feel free to open [an issue](https://github.com/exordium-dev/exordium/projects/2) so we can work together and resolve it. You can also contact us through our [discord server](https://discord.exordium.dev/), or [emails](mailto:contact@exordium.dev).
 
 ## Contact Us
 
@@ -34,4 +34,13 @@ If you want to send us an email, regarding any issue, you can send an email to:
 
 ## Contributors
 
-For a full list of contributors who have helped with this project, please checkout our [contributors file](docs/CONTRIBUTORS.md).
+The following contributors have either helped to start this project, have contributed
+code, are actively maintaining it (including documentation), or in other ways
+being awesome contributors to this project. **We'd like to take a moment to recognize them.**
+
+[<img src="https://github.com/FriedOctopus.png?size=72" alt="FriedOctopus" width="72">](https://github.com/FriedOctopus)
+
+The Exordium development team:
+
+[<img src="https://github.com/tvOdyssey.png?size=72" alt="tvOdyssey" width="72">](https://github.com/tvOdyssey)
+[<img src="https://github.com/shuZro.png?size=72" alt="shuZro" width="72">](https://github.com/shuZro)
