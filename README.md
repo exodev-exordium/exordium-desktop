@@ -43,4 +43,5 @@ being awesome contributors to this project. **We'd like to take a moment to reco
 The Exordium development team:
 
 [<img src="https://github.com/tvOdyssey.png?size=72" alt="tvOdyssey" width="72">](https://github.com/tvOdyssey)
+[<img src="https://github.com/InvalidEm.png?size=72" alt="InvalidEm" width="72">](https://github.com/InvalidEm)
 [<img src="https://github.com/shuZro.png?size=72" alt="shuZro" width="72">](https://github.com/shuZro)
