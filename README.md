@@ -9,7 +9,7 @@ We hope to share as much of our programming as open source code to help others c
 
 We are currently in the 0.5.* development versions of the Exordium application.
 
-![](screenshots/screenshot-0.4.0.png)
+![](screenshots/screenshot-0.5.0.png)
 
 The current version of the Exordium project has come a long way and we will continue to build on and improve its features and design. Thanks to all those who have helped us build on the foundation.
 
