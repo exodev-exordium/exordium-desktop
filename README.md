@@ -23,7 +23,7 @@ The current version of the Exordium project has come a long way and we will cont
 
 ## Issues & Suggestions
 
-If you run into an issues regarding the application, feel free to open [an issue](https://github.com/exordium-dev/exordium/projects/2) so we can work together and resolve it. You can also contact us through our [discord server](https://discord.exordium.dev/), or [emails](mailto:contact@exordium.dev).
+If you run into an issues regarding the application, feel free to open [an issue](https://github.com/exordium-dev/exordium/issues) so we can work together and resolve it. You can also contact us through our [discord server](https://discord.exordium.dev/), or [emails](mailto:contact@exordium.dev).
 
 ## Contact Us
 
