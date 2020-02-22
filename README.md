@@ -40,7 +40,6 @@ If you want to send us an email, regarding any issue, you can send an email to:
 
 The following contributors have either helped to start this project, contributed code, or are actively maintaining it (including documentation, and creating issues), or are in some other way being awesome contributors to this project and we would like to take a moment to recognize them.
 
-[<img src="https://github.com/RavenVex.png?size=72" alt="RavenVex" width="72">](https://github.com/RavenVex)
 [<img src="https://github.com/FriedOctopus.png?size=72" alt="FriedOctopus" width="72">](https://github.com/FriedOctopus)
 
 The Exordium development team:
