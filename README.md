@@ -5,7 +5,7 @@ Exordium is a virtual private networking software in the works. **Our goal is to
 
 We hope to share as much of our programming as open source code to help others create their own projects and further the development of software built with `electronjs` and` nodejs`, which are the fundamental pieces to us. 
 
-## 0.5.10
+## 0.5.11
 
 We are currently in the `0.5.x` development versions of the Exordium application. Download the [latest release here](https://github.com/exordium-dev/exordium/releases/latest)!
 
