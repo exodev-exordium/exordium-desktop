@@ -1,4 +1,4 @@
-# Exordium
+# Exordium (Desktop)
 *A project by the Exordium Development Team.*
 
 Exordium is a virtual private networking software in the works. **Our goal is to donate all profits made from the VPN towards environmental protection, and to fight against the climate crisis.** 
