@@ -15,11 +15,11 @@ The current version of the Exordium project has come a long way and we will cont
 
 ### Features
 
-Exordium is currently in the developmental version of `0.5.x`. This `README.md` was last updated during `0.5.10`. The following are current features that are offered in Exordium;
+Exordium is currently in the developmental version of `0.5.x`. This `README.md` was last updated during `0.5.11`. The following are current features that are offered in Exordium;
 
 - `electron-updater` automatically checks for new updates at launch. If there is a new update available it sends a notification and askes for user verification before downloading and installing the new update. This feature also displays `download-progress`.
 - `discord-rpc` shows the connection status of the current user. This feature will be able to be disabled from the settings but as of `0.5.10` this feature has not yet been implemented.
-- `electron-theme-aware` was originally implemented in `0.4.x` of the application, `electronjs` has now added internal support so this function has been removed until we add the internally supported code. Should be added in after the release of `0.5.10`.
+- `electron-theme-aware` was originally implemented in `0.4.x` of the application, `electronjs` has now added internal support so this function has been removed until we add the internally supported code. Should be added in after the release of `0.6.0`.
 - `electronjs internet online/offline` gives notifications to the user on whether or not the computer, or application, currently has access to the public internet. Crucial in its ability to connection to the eventual vpn services.
 - `fontawesome pro 5.12.1` is currently used throughout the application to give the user a better visualization towards what different buttons and functions throughout the application do.
 - `animate.css` allows smooth and visually nice animations to the way pages are changed, and certain elements appear. We strive to make this application as modern and visually pleasing as possible.
