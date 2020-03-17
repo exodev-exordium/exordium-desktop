@@ -7,7 +7,7 @@ We hope to share as much of our programming as open source code to help others c
 
 ## 0.5.11
 
-We are currently in the `0.5.x` development versions of the Exordium application. Download the [latest release here](https://github.com/exordium-dev/exordium/releases/latest)!
+We are currently in the `0.5.x` development versions of the Exordium application. Download the [latest release here](https://github.com/exordium-dev/exordium-desktop/releases/latest)!
 
 ![](screenshots/screenshot-0.5.10.png)
 
@@ -27,7 +27,7 @@ Exordium is currently in the developmental version of `0.5.x`. This `README.md` 
 
 ## Issues & Suggestions
 
-If you run into an issues regarding the application, feel free to open [an issue](https://github.com/exordium-dev/exordium/issues) so we can work together and resolve it. You can also contact us through our [discord server](https://discord.exordium.dev/), or [emails](mailto:contact@exordium.dev).
+If you run into an issues regarding the application, feel free to open [an issue](https://github.com/exordium-dev/exordium-desktop/issues) so we can work together and resolve it. You can also contact us through our [discord server](https://discord.exordium.dev/), or [emails](mailto:contact@exordium.dev).
 
 ## Contact Us
 
