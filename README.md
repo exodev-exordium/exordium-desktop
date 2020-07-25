@@ -3,15 +3,18 @@
 
 Exordium is a virtual private networking software in the works. **Our goal is to donate all profits made from the VPN towards environmental protection, and to fight against the climate crisis.** 
 
-We hope to share as much of our programming as open source code to help others create their own projects and further the development of software built with `electronjs` and` nodejs`, which are the fundamental pieces to us. 
+We hope to share as much of our programming as open source code to help others create their own projects and further the development of software built with `nodejs`, `electronjs`, and `angular`, which are the fundamental pieces to us. 
 
-## 0.5.11
+## 0.7.1
 
-We are currently in the `0.5.x` development versions of the Exordium application. Download the [latest release here](https://github.com/exordium-dev/exordium-desktop/releases/latest)!
+We are currently in the `0.7.x` developmental versions of the Exordium Desktop Application. Right now the project is completely broken, since the `0.5.x` versions. We are redoing everything, moving from html, css + js stack to Angular.
+
+Moving to angular makes all our websites, and applications in the same framework and languages, it's the best move for us. 
+
+You can check out the [latest download releases here](https://github.com/exordium-dev/exordium-desktop/releases/latest). 
 
 ![](screenshots/screenshot-0.5.10.png)
-
-The current version of the Exordium project has come a long way and we will continue to build on and improve its features and design. Thanks to all those who have helped us build on the foundation.
+Above screenshot is from the `0.5.11` developmental versions. A new screenshot will be provided in the near future. 
 
 ### Features
 
@@ -31,10 +34,11 @@ If you run into an issues regarding the application, feel free to open [an issue
 
 ## Contact Us
 
-If you need to get in contact with our development team or customer support, please either [join our discord server](https://discord.exordium.dev) or visit [our contact page on our website](https://exordium.dev/contact).
+If you need to get in contact with our development team or customer support, please either [join our discord server](https://discord.exordium.org) or visit [our contact page on our website](https://exordium.org/#/company/contact).
 
 If you want to send us an email, regarding any issue, you can send an email to:
-- :envelope: [contact@exordium.dev](mailto:contact@exordium.dev)
+- :envelope: [contact@exordium.org](mailto:contact@exordium.org)
+- :envelope: [support@exordium.org](mailto:support@exordium.org)
 
 ## Contributors
 
@@ -45,6 +49,6 @@ The following contributors have either helped to start this project, contributed
 
 The Exordium development team:
 
-[<img src="https://github.com/tvOdyssey.png?size=72" alt="tvOdyssey" width="72">](https://github.com/tvOdyssey)
+[<img src="https://github.com/FearGannicus.png?size=72" alt="FearGannicus" width="72">](https://github.com/FearGannicus)
 [<img src="https://github.com/InvalidEm.png?size=72" alt="InvalidEm" width="72">](https://github.com/InvalidEm)
 [<img src="https://github.com/shuZro.png?size=72" alt="shuZro" width="72">](https://github.com/shuZro)
