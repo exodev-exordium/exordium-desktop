@@ -20,7 +20,7 @@ function createWindow(): BrowserWindow {
     height: size.height,
     frame: false,
     transparent: true,
-    vibrancy: 'dark',
+    vibrancy: 'light',
     webPreferences: {
       nodeIntegration: true,
       allowRunningInsecureContent: (serve) ? true : false,
