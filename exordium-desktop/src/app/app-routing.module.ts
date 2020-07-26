@@ -2,13 +2,12 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './shared/components';
 
-import { HomeRoutingModule } from './home/home-routing.module';
-import { DetailRoutingModule } from './detail/detail-routing.module';
+import { AuthRoutingModule } from './_pages/auth/auth-routing.module';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'auth/signin',
     pathMatch: 'full'
   },
   {
@@ -20,8 +19,7 @@ const routes: Routes = [
 @NgModule({
   imports: [
     RouterModule.forRoot(routes),
-    HomeRoutingModule,
-    DetailRoutingModule
+    AuthRoutingModule
   ],
   exports: [RouterModule]
 })

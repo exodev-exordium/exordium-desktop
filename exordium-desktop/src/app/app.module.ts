@@ -14,8 +14,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
-import { HomeModule } from './home/home.module';
-import { DetailModule } from './detail/detail.module';
+// Pages
+import { AuthSigninComponent } from './_pages/auth/auth-signin/auth-signin.component';
+import { DashboardComponent } from './_pages/dashboard/dashboard/dashboard.component';
 
 import { AppComponent } from './app.component';
 
@@ -25,15 +26,20 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
 }
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent,
+    AuthSigninComponent, 
+    DashboardComponent
+  ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpClientModule,
     CoreModule,
     SharedModule,
-    HomeModule,
-    DetailModule,
+
+
+
     AppRoutingModule,
     TranslateModule.forRoot({
       loader: {
