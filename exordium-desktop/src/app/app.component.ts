@@ -9,6 +9,8 @@ import { AppConfig } from '../environments/environment';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  window: Boolean = false; 
+
   constructor(
     private electronService: ElectronService,
     private translate: TranslateService
@@ -17,11 +19,16 @@ export class AppComponent {
     console.log('AppConfig', AppConfig);
 
     if (electronService.isElectron) {
+      this.window = true;
+
       console.log(process.env);
+      
       console.log('Run in electron');
       console.log('Electron ipcRenderer', this.electronService.ipcRenderer);
       console.log('NodeJS childProcess', this.electronService.childProcess);
     } else {
+      this.window = false;
+
       console.log('Run in browser');
     }
   }
