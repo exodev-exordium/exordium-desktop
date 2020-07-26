@@ -76,6 +76,7 @@
     "conventional-changelog-cli": "2.0.34",
     "core-js": "3.6.5",
     "cross-env": "7.0.2",
+    "discord-rpc": "3.1.2",
     "electron": "9.1.0",
     "electron-acrylic-window": "0.2.2",
     "electron-builder": "22.7.0",
