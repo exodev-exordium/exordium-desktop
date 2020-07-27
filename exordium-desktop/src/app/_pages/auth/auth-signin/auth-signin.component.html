@@ -1,1 +1,109 @@
-<p>auth-signin works!</p>
+<!-- Login Page -->
+<section class="header-inner p-0 jarallax position-relative" style="background-color: rgba(0,0,0,.6);" data-overlay>
+    <img src="assets/exordium/backgrounds/mountain0.jpg" alt="Image" class="jarallax-img opacity-20">
+    <div class="container py-0 pt-7">
+      <div class="row my-4 my-md-6 text-light">
+        <div class="col-md-12 text-center animate__animated animate__fadeInUp">
+          <h1 class="display-4">Sign in</h1>
+          <p class="lead mb-0">Enter your username and password to sign in to Exordium.</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center my-3">
+        <div class="col-lg-7">
+
+          <form name="form" [formGroup]="signinForm" (ngSubmit)="onSubmit()">
+
+            <div class="card shadow-sm mb-4">
+              <div class="card-body">
+  
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="form-group">
+                        <label>Email *</label>
+
+                        <div class="input-group mb-3">
+                          <div class="input-group-prepend" 
+                            [ngClass]="{'ng-invalid': f.email.invalid && f.email.dirty,
+                                        'ng-valid': f.email.valid && f.email.dirty}">
+                            <span class="input-group-text">
+                              <i class="fa fa-fw fa-envelope"></i>
+                            </span>
+                          </div>
+                          <input name="email" type="email" formControlName="email" placeholder="ryan@deadpool.com" class="form-control" required>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <label>Password *</label>
+
+                        <div class="input-group mb-3">
+                          <div class="input-group-prepend"
+                            [ngClass]="{'ng-invalid': f.password.invalid && f.password.dirty,
+                                        'ng-valid': f.password.valid && f.password.dirty}">
+                            <span class="input-group-text">
+                              <i class="fa fa-fw fa-lock"></i>
+                            </span>
+                          </div>
+                          <input name="password" type="password" autocomplete="current-password" formControlName="password" placeholder="************" class="form-control" required>
+                          <div class="input-group-append">
+                            <a href="javascript:;" class="btn btn-secondary">
+                              Forgotten password?
+                            </a>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <label>Prove that you're human *</label>
+                        <re-captcha
+                          formControlName="recaptcha"
+                        ></re-captcha>
+                      </div>
+                    </div>
+
+                  </div>
+                
+              </div>
+              <div class="card-footer">
+                
+                <div class="row">
+                  <div class="col-md-6">
+                      <button type="submit" class="btn btn-primary submitSignin">
+                          <i class="fa fa-fw fa-paper-plane"></i>
+                          Sign in
+                      </button>
+                  </div>
+                  <div class="col-md-6 text-right">
+                    <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                      <input type="checkbox" class="custom-control-input" id="customControlInline">
+                      <label class="custom-control-label text-dark" for="customControlInline">Remember my details</label>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+
+      <div class="row mb-6">
+          <div class="col-12 text-center">
+            <p>
+                <a href="javascript:;" class="btn btn-link btn-link-overlay" routerLink ="/auth/register">
+                    <i class="fa fa-fw fa-user-plus"></i>
+                    Need to create an account? Register now!
+                </a>
+            </p>
+          </div>
+      </div>
+
+    </div>
+</section>
