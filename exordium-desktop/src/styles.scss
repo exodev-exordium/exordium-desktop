@@ -1,7 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    //overflow: hidden;
+    background: transparent !important;
 }
 
 /* TITLEBAR AT TOP */
@@ -14,6 +15,10 @@ html, body {
     -webkit-app-region: drag;
     z-index: 1020;
     background: rgba(27,29,38,.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
   }
   
   .ui-titleicon {
@@ -85,3 +90,9 @@ html:after {
 }
 
 /* IMPORTS */
+
+// import frotend LITE edition for the authentication pages
+@import "~@exordium/scss-frontend/src/theme-lite.scss";
+
+// import general plugins for both the frontend lite design and backend design
+@import "~@exordium/scss-plugins/src/plugins.scss";
