@@ -85,7 +85,7 @@
     "cross-env": "7.0.2",
     "discord-rpc": "3.1.2",
     "electron": "9.1.0",
-    "electron-acrylic-window": "0.2.2",
+    "electron-acrylic-window": "0.3.0",
     "electron-builder": "22.7.0",
     "electron-reload": "1.5.0",
     "eslint": "7.4.0",
