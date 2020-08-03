@@ -1,20 +1,26 @@
 import 'reflect-metadata';
 import '../polyfills';
 
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { LocationStrategy, HashLocationStrategy } from '@angular/common';
-import { NgModule } from '@angular/core';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
 
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule, HttpClient, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RecaptchaModule, RecaptchaFormsModule, RECAPTCHA_SETTINGS, RecaptchaSettings } from 'ng-recaptcha';
+
 import { ToastrModule } from 'ngx-toastr';
 import { NotyfToast } from './shared/components/notyf.toast';
+
 import { LoadingBarModule } from '@ngx-loading-bar/core';
 
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
+
+import { PerfectScrollbarDirective } from './shared/directives/scrollbar/perfect-scrollbar.directive';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -27,7 +33,9 @@ import { AuthSigninComponent } from './_pages/auth/auth-signin/auth-signin.compo
 import { DashboardComponent } from './_pages/dashboard/dashboard/dashboard.component';
 
 import { AppComponent } from './app.component';
-import { PerfectScrollbarDirective } from './shared/directives/scrollbar/perfect-scrollbar.directive';
+
+// Service
+import { AuthconfigInterceptor } from './core/services/exordium/helpers/authconfig.interceptor';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
@@ -36,25 +44,26 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
 
 @NgModule({
   declarations: [
+    NotyfToast,
+
     AppComponent,
+    
     PerfectScrollbarDirective,
+
     AuthSigninComponent, 
     DashboardComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
 
     RecaptchaModule, 
     RecaptchaFormsModule,
-    ToastrModule.forRoot({
-      toastComponent: NotyfToast,
-      timeOut: 6000,
-      positionClass: 'toast-bottom-right'
-    }),
+
     LoadingBarModule,
 
     CoreModule,
@@ -67,7 +76,12 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    ToastrModule.forRoot({
+      //toastComponent: NotyfToast,
+      timeOut: 6000,
+      positionClass: 'toast-bottom-right'
+    }),
   ],
   entryComponents: [
     //NotyfToast
@@ -77,13 +91,21 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
       provide: LocationStrategy,
       useClass: HashLocationStrategy,
    },
-    {
+   {
+    provide: HTTP_INTERCEPTORS,
+    useClass: AuthconfigInterceptor,
+    multi: true
+  },
+  {
       provide: RECAPTCHA_SETTINGS,
       useValue: {
         siteKey: '6LeB5uIUAAAAAMQWnwCUpUHbdsHO4iV4emdn9KOL'
       } as RecaptchaSettings,
     },
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
+  ]
 })
 export class AppModule {}
