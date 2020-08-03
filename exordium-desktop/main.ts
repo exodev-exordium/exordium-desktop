@@ -16,11 +16,13 @@ function createWindow(): BrowserWindow {
   win = new BrowserWindow({
     x: 0,
     y: 0,
-    width: 750,
-    height: 600,
+    width: 1280,
+    height: 720,
+    minWidth: 500,
+    minHeight: 400,
     frame: false,
     transparent: true,
-    vibrancy: 'light',
+    vibrancy: 'dark',
     webPreferences: {
       nodeIntegration: true,
       allowRunningInsecureContent: (serve) ? true : false,
@@ -30,7 +32,7 @@ function createWindow(): BrowserWindow {
   if (serve) {
 
     // devtools messes with the vibrancy
-    //win.webContents.openDevTools();
+    win.webContents.openDevTools();
 
     require('electron-reload')(__dirname, {
       electron: require(`${__dirname}/node_modules/electron`)
